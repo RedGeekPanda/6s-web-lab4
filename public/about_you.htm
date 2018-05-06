@@ -1,0 +1,28 @@
+<meta charset="UTF-8"/>
+
+<form action="links.php" method="POST">
+    <h2>Введіть довідкову інформацію про себе</h2>
+
+    <h3>Контактна інформація:</h3>
+    <div><label>Прізвище: <input type="text" name="surname"></label></div>
+    <div><label>Ім'я: <input type="text" name="name"></label></div>
+    <div><label>Домашній телефон: <input type="tel" name="telephone"></label></div>
+    <div><label>Електронна адреса: <input type="email" name="email"></label></div>
+
+    <h3>Інформація про навчальний заклад:</h3>
+    <div><label>Назва ВУЗа: <input type="text" name="institution"></label></div>
+    <div><label>Факультет: <input type="text" name="department"></label></div>
+    <div><label>Курс: <input type="number" name="course"></label></div>
+
+    <h3>Захоплення:</h3>
+    <div><label><input type="radio" name="passion" value="games"> Комп'ютерні ігри</label></div>
+    <div><label><input type="radio" name="passion" value="chess"> Шахи</label></div>
+    <div><label><input type="radio" name="passion" value="sport"> Спорт</label></div>
+    <div><label><input type="radio" name="passion" value="art"> Мистецтво</label></div>
+
+    <br>
+    <div>
+        <button type="submit">Надіслати</button>
+        <button type="reset">Відмінити</button>
+    </div>
+</form>
